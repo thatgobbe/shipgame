@@ -12,9 +12,8 @@ function slide(){
 }
 slide();
 */
-document.body.innerHTML = document.querySelector('body').innerHTML + '<img id="ship" src="https://e7.pngegg.com/pngimages/184/724/png-clipart-arrow-button-right-triangle-angle-rectangle-thumbnail.png"></img>';
+document.body.innerHTML = document.querySelector('body').innerHTML + '<img id="ship" src="https://e7.pngegg.com/pngimages/184/724/png-clipart-arrow-button-right-triangle-angle-rectangle-thumbnail.png"></img><style>#ship{width: 10px;height: 10px;transform: rotate(90deg);}</style>';
 s = document.getElementById('ship');
-document.body.innerHTML += '<style>#ship{width: 10px;height: 10px;transform: rotate(90deg);}</style>';
 
 var a=xv=x=yv=y=45;
 var f = 0.99;
